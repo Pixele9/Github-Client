@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- Bootstrap 4 -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<!-- Animate CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<!-- Fontawesome 5 -->
+	<script defer src="https://kit.fontawesome.com/694a2a9846.js" crossorigin="anonymous"></script>
+	<title>Github Client</title>
+</head>
+<body>
+	<!-- Navigation -->
+	<nav class="navbar navbar-light bg-dark">
+		<a href="/" class="ml-4 navbar-brand" style="color:#fff;">
+			<i class="mr-3 fab fa-github" style="color: #fff; transform: scale(1.7);"></i>
+			GitHub Client
+		</a>
+		<form id="search-form" class="form-inline">
+			<input type="search" class="form-control mr-sm-2" id="user-search" placeholder="Search a username">
+			<button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+		</form>
+	</nav>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4" id="user-profile">
+				<!-- User profile -->
+			</div>
+			<div class="col-md-8">
+				<div id="repos"></div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
